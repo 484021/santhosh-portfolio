@@ -19,6 +19,6 @@ export default function Projects() {
   )
 }
 
-// function Project ({title,description,tags,imageUrl}) {
-//     return <div>{title}</div>
-// }
+ function Project ({title,description,tags,imageUrl}) {
+     return <div>{title}</div>
+ }
