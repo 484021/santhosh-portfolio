@@ -1,10 +1,23 @@
 "use client"
-import React from 'react'
+import React, { useEffect } from 'react'
 import {motion} from "framer-motion"
 import SectionHeading from './section-heading'
+import { useInView } from 'react-intersection-observer'
+import { useActiveSectionContext } from '@/context/active-section-context'
 
 
 export default function About() {
+  const {ref, inView} = useInView({
+    threshold: 0.75,
+  });
+  const { setActiveSection } = useActiveSectionContext();
+
+  useEffect(() => {
+    if (inView){
+      setActiveSection('About');
+    }
+  }, [inView, setActiveSection]);
+  
   return (
     <motion.section
     
@@ -13,6 +26,7 @@ export default function About() {
     animate={{ opacity: 1, y: 0 }}
     transition={{ delay: 0.175 }}
     id="about"
+    ref = {ref}  
   >
     <SectionHeading>About me</SectionHeading> 
     <p className="mb-3">
@@ -35,15 +49,10 @@ export default function About() {
     <p className='mb-3'>
       <span className="italic">When I'm not coding</span>, I enjoy playing
       playing badminton, watching movies, and hanging out with friends and family. I also enjoy{" "}
-      <span className="font-medium">learning new things</span>.
+      <span className="font-medium">learning new things</span>. I can speak <span className="italic">English, Korean, Tamil </span><span className="font-medium">and</span>
+      <span className="italic"> Kannada</span> as well as having <span className="font-medium">basic understanding</span> of <span className="italic">Japanese.</span>
     </p>
-    <p>
-        I am currently taking on clients for my <span className="font-medium">Web Development Agency</span> as well. Our team is dedicated to creating stunning, user-friendly websites that reflect your brand and achieve your goals. From concept to launch and beyond, we're here to turn your vision into reality.
-        <br/>
-        Let's collaborate to elevate your online presence. Thank you for considering us.
-        <br />
-        Let's create something extraordinary together.
-    </p>
+
   </motion.section>
   )
 }
