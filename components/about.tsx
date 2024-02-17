@@ -43,14 +43,14 @@ export default function About() {
       . I am also familiar with TypeScript. I am always looking to
       learn new technologies. I am currently looking for a{" "}
       <span className="font-medium">full-time position</span> as a software
-      developer.
+      developer and clients for my<br/><span className="font-medium"> Web Development Agency.</span>
     </p>
 
     <p className='mb-3'>
       <span className="italic">When I'm not coding</span>, I enjoy playing
       playing badminton, watching movies, and hanging out with friends and family. I also enjoy{" "}
       <span className="font-medium">learning new things</span>. I can speak <span className="italic">English, Korean, Tamil </span><span className="font-medium">and</span>
-      <span className="italic"> Kannada</span> as well as having <span className="font-medium">basic understanding</span> of <span className="italic">Japanese.</span>
+      <span className="italic"> Kannada</span> also I have a <span className="font-medium">basic proficiency</span> in <span className="italic">Japanese.</span>
     </p>
 
   </motion.section>
