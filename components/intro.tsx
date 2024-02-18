@@ -1,25 +1,19 @@
 "use client"
 import Image from 'next/image'
-import React, { useEffect } from 'react'
 import {motion} from "framer-motion"
 import Link from 'next/link';
 import { BsArrowRight, BsDiscord, BsGithub, BsInstagram, BsLinkedin, BsTwitterX, BsYoutube } from 'react-icons/bs';
-import { useInView } from 'react-intersection-observer';
+import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 // import { HiDownload } from "react-icons/hi";
 // import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
-  const {ref, inView} = useInView({
-    threshold: 0.5,
-  });
-  const { setActiveSection } = useActiveSectionContext();
-
-  useEffect(() => {
-    if (inView){
-      setActiveSection('Home');
-    }
-  }, [inView, setActiveSection]);
+  const { ref } = useSectionInView("Home", 0.5);
+  const {
+    setActiveSection,
+    setTimeOfLastClick
+  } = useActiveSectionContext();
   
   return (
     <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]" id="home" ref={ref}>
@@ -71,44 +65,49 @@ export default function Intro() {
            }}>
             <Link href="#contact" className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full 
             outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition 
-            ">Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1'/></Link>
+            "
+            onClick={() => {
+              setActiveSection('Contact')
+              setTimeOfLastClick(Date.now())
+            }}
+            >Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1'/></Link>
             <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition border border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://www.linkedin.com/in/santhosh-bhoopal/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition border border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://www.instagram.com/prodoit"
           target="_blank"
         >
           <BsInstagram />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition border border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://github.com/484021/"
           target="_blank"
         >
           <BsGithub />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition border border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://discordapp.com/users/prodoit"
           target="_blank"
         >
           <BsDiscord />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition border border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://www.youtube.com/@SanthoshBhoopal"
           target="_blank"
         >
           <BsYoutube />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition border border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://twitter.com/santhosh_code"
           target="_blank"
         >

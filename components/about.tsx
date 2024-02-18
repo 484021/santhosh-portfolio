@@ -2,21 +2,12 @@
 import React, { useEffect } from 'react'
 import {motion} from "framer-motion"
 import SectionHeading from './section-heading'
-import { useInView } from 'react-intersection-observer'
-import { useActiveSectionContext } from '@/context/active-section-context'
+import { useSectionInView } from '@/lib/hooks'
 
 
 export default function About() {
-  const {ref, inView} = useInView({
-    threshold: 0.75,
-  });
-  const { setActiveSection } = useActiveSectionContext();
+  const { ref } = useSectionInView("About");
 
-  useEffect(() => {
-    if (inView){
-      setActiveSection('About');
-    }
-  }, [inView, setActiveSection]);
   
   return (
     <motion.section
@@ -43,14 +34,14 @@ export default function About() {
       . I am also familiar with TypeScript. I am always looking to
       learn new technologies. I am currently looking for a{" "}
       <span className="font-medium">full-time position</span> as a software
-      developer and clients for my<br/><span className="font-medium"> Web Development Agency.</span>
+      developer and clients for my <span className="italic">start up</span><span className="font-medium"> Web Development Agency.</span>
     </p>
 
     <p className='mb-3'>
       <span className="italic">When I'm not coding</span>, I enjoy playing
-      playing badminton, watching movies, and hanging out with friends and family. I also enjoy{" "}
+      playing badminton, watching movies, and hanging out with friends and family. I also love{" "}
       <span className="font-medium">learning new things</span>. I can speak <span className="italic">English, Korean, Tamil </span><span className="font-medium">and</span>
-      <span className="italic"> Kannada</span> also I have a <span className="font-medium">basic proficiency</span> in <span className="italic">Japanese.</span>
+      <span className="italic"> Kannada</span>, and I have a very <span className="font-medium">basic proficiency</span> in <span className="italic">Japanese.</span>
     </p>
 
   </motion.section>
