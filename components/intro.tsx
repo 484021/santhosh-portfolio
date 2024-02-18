@@ -72,42 +72,42 @@ export default function Intro() {
             }}
             >Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1'/></Link>
             <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack"
+          className="bg-white p-4 dark:bg-white/10 dark:text-white/60 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://www.linkedin.com/in/santhosh-bhoopal/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
+          className="bg-white p-4 dark:bg-white/10 dark:text-white/60 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://www.instagram.com/prodoit"
           target="_blank"
         >
           <BsInstagram />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
+          className="bg-white p-4 dark:bg-white/10 dark:text-white/60 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://github.com/484021/"
           target="_blank"
         >
           <BsGithub />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
+          className="bg-white  dark:bg-white/10 dark:text-white/60 p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://discordapp.com/users/prodoit"
           target="_blank"
         >
           <BsDiscord />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
+          className="bg-white dark:bg-white/10 dark:text-white/60 p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://www.youtube.com/@SanthoshBhoopal"
           target="_blank"
         >
           <BsYoutube />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
+          className="bg-white dark:bg-white/10 dark:text-white/60 p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://twitter.com/santhosh_code"
           target="_blank"
         >
