@@ -31,16 +31,19 @@ export default function Contact() {
         </SectionHeading>
         <p className='text-gray-700 -mt-5'>Please contact me directly at <a className='underline' href="mailto:bhoopalsanthosh@gmail.com">bhoopalsanthosh@gmail.com</a> or through this form.</p>
 
-        <form className="mt-10 flex flex-col" 
-              action={async (formData) => {
-                const {error} = await sendEmail(formData);
+        <form
+        className="mt-10 flex flex-col dark:text-black"
+        action={async (formData) => {
+          const { error } = await sendEmail(formData);
 
-            if (error){
-                toast.error(error);
-                return;
-            }
-            toast.success("Email sent successfully!")
-        }}>
+          if (error) {
+            toast.error(error);
+            return;
+          }
+
+          toast.success("Email sent successfully!");
+        }}
+      >
             <input className="h-14 rounded-lg borderBlack px-4"
             type="email" 
             required 
