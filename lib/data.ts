@@ -84,4 +84,5 @@ export const skillsData = [
   "Tailwind",
   "Express",
   "Framer Motion",
+  "Stripe"
 ] as const;
