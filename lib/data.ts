@@ -65,9 +65,10 @@ export const projectsData = [
   {
     title: "Love the beads",
     description:
-      "I worked as a full-stack developer for my first client. This is a e-commerce app where users can buy hand-made bead accesories.",
-    tags: ["Javascript", "HTML", "CSS", "Node.js", "Express"],
+      "I worked as a full stack developer to make this app from scratch for a client. This is a basic e-commerce app where users can buy hand-made bead accesories.",
+    tags: ["Javascript", "HTML", "CSS", "Node.js", "Express", "Stripe"],
     imageUrl: ltbImg,
+    projectUrl: "https://love-the-beads.onrender.com/"
   }
 ] as const;
 
@@ -81,7 +82,6 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "MongoDB",
   "Express",
   "Framer Motion",
 ] as const;
