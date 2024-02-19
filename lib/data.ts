@@ -1,11 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 import ltbImg from "@/public/ltb.png"
+import artistfinder from "@/public/artistfinder.png"
 
 export const links = [
   {
@@ -69,6 +66,14 @@ export const projectsData = [
     tags: ["Javascript", "HTML", "CSS", "Node.js", "Express", "Stripe"],
     imageUrl: ltbImg,
     projectUrl: "https://love-the-beads.onrender.com/"
+  },
+  {
+    title: "Artist finder",
+    description:
+      "This is a simple front-end HTML and CSS project. A landing page with modern and minimalistic UI/ UX design.",
+    tags: ["HTML", "CSS"],
+    imageUrl: artistfinder,
+    projectUrl: "#"
   }
 ] as const;
 
