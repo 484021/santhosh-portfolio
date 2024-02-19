@@ -70,10 +70,10 @@ export const projectsData = [
   {
     title: "Artist finder",
     description:
-      "This is a simple front-end HTML and CSS project. A landing page with modern and minimalistic UI/ UX design.",
+      "Artist finder is where artists and event hosts connect. This is a landing page with modern and minimalistic UI/UX design.",
     tags: ["HTML", "CSS"],
     imageUrl: artistfinder,
-    projectUrl: "#"
+    projectUrl: "https://484021.github.io/CSS-html-portfolio-project/"
   }
 ] as const;
 
