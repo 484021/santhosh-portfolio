@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import ltbImg from "@/public/ltb.png"
 import artistfinder from "@/public/artistfinder.png"
+import budgetapppre from "@/public/budgetapppre.png"
 
 export const links = [
   {
@@ -66,6 +67,14 @@ export const projectsData = [
     tags: ["Javascript", "HTML", "CSS", "Node.js", "Express", "Stripe"],
     imageUrl: ltbImg,
     projectUrl: "https://love-the-beads.onrender.com/"
+  },
+  {
+    title: "Budget app",
+    description:
+      "Take control of your finances with my easy-to-use budget app. Track your income and expenses all in one place, effortlessly. Receive insightful spending analysis, and stay on top of your financial goals.",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: budgetapppre,
+    projectUrl: "https://484021.github.io/budgetapp/"
   },
   {
     title: "Artist finder",
