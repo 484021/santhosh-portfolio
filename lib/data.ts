@@ -64,25 +64,9 @@ export const projectsData = [
     title: "Love the beads",
     description:
       "I worked as a full stack developer to make this app from scratch for a client. This is a basic e-commerce app where users can buy hand-made bead accesories.",
-    tags: ["Javascript", "HTML", "CSS", "Node.js", "Express", "Stripe"],
+    tags: ["HTML", "CSS", "Javascript","Node.js", "Express", "Stripe"],
     imageUrl: ltbImg,
     projectUrl: "https://love-the-beads.onrender.com/"
-  },
-  {
-    title: "Budget app",
-    description:
-      "Take control of your finances with my easy-to-use budget app. Track your income and expenses all in one place, effortlessly. Receive insightful spending analysis, and stay on top of your financial goals.",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: budgetapppre,
-    projectUrl: "https://484021.github.io/budgetapp/"
-  },
-  {
-    title: "Artist finder",
-    description:
-      "Artist finder is where artists and event hosts connect. This is a responsive landing page with modern and minimalistic UI/UX design.",
-    tags: ["HTML", "CSS"],
-    imageUrl: artistfinder,
-    projectUrl: "https://484021.github.io/CSS-html-portfolio-project/"
   }
 ] as const;
 
