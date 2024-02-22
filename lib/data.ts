@@ -2,8 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import ltbImg from "@/public/ltb.png"
-import artistfinder from "@/public/artistfinder.png"
-import budgetapppre from "@/public/budgetapppre.png"
+import conpic from "@/public/conpic.png"
 
 export const links = [
   {
@@ -60,6 +59,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "baddiE",
+    description:
+      "A social media platform for badminton players to connect and play badminton. Create your own badminton sessions or join others near you. *Under Construction*",
+    tags: ["React.js","Node.js","Express","MongoDB","Firebase","*TBD*"],
+    imageUrl: conpic,
+    projectUrl: "#"
+  },
   {
     title: "Love the beads",
     description:
