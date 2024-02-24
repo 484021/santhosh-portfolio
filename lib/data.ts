@@ -65,12 +65,12 @@ export const projectsData = [
       "A social media platform for badminton players to connect and play badminton. Create your own badminton sessions or join others near you. *Under Construction*",
     tags: ["React.js","Node.js","Express","MongoDB","Firebase","*TBD*"],
     imageUrl: conpic,
-    projectUrl: "#"
+    projectUrl: "https://github.com/484021/baddiE"
   },
   {
     title: "Love the beads",
     description:
-      "I worked as a full stack developer to make this app from scratch for a client. This is a basic e-commerce app where users can buy hand-made bead accesories.",
+      "I worked as a full stack developer to make this app from scratch for a client. This is an e-commerce app where users can buy hand-made bead accesories.",
     tags: ["HTML", "CSS", "Javascript","Node.js", "Express", "Stripe"],
     imageUrl: ltbImg,
     projectUrl: "https://love-the-beads.onrender.com/"
@@ -85,6 +85,7 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "MongoDB",
   "Git",
   "Tailwind",
   "Express",
