@@ -70,8 +70,8 @@ export const projectsData = [
   {
     title: "Love the beads",
     description:
-      "I worked as a full stack developer to make this app from scratch for a client. This is an e-commerce app where users can buy hand-made bead accesories.",
-    tags: ["HTML", "CSS", "Javascript","Node.js", "Express", "Stripe"],
+      "This is an e-commerce app I built where users can buy hand-made bead accesories from one of my clients. The cart data is passed to the server and verified before being passed onto Stripe for payment processing.",
+    tags: ["HTML", "CSS", "Javascript","Node.js", "Express", "Contentify","Stripe"],
     imageUrl: ltbImg,
     projectUrl: "https://love-the-beads.vercel.app/"
   }
