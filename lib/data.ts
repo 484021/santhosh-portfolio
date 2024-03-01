@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import ltbImg from "@/public/ltb.png"
 import conpic from "@/public/conpic.png"
+import tracyport from "@/public/Tracy-portfolio.png"
 
 export const links = [
   {
@@ -63,10 +64,18 @@ export const projectsData = [
   {
     title: "Love the beads",
     description:
-      "This is an e-commerce app I built where users can buy hand-made bead accesories from one of my clients. The cart data is passed to the server and verified before being passed onto Stripe for payment processing.",
-    tags: ["HTML", "CSS", "Javascript","Node.js", "Express", "Contentify","Stripe"],
+      "This is an e-commerce app I built where users can buy hand-made bead accesories from one of my clients. The cart data is passed to the server and verified.",
+    tags: ["HTML", "CSS", "Javascript","Node.js", "Express","Stripe"],
     imageUrl: ltbImg,
     projectUrl: "https://love-the-beads.onrender.com/"
+  },
+  {
+    title: "Tracy Fung's portfolio",
+    description:
+      "A portfolio for an emerging artist based in Mississauga. A very simple and minimalistic design and functionality as requested by the client.",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: tracyport,
+    projectUrl: "https://tracy-fung.com/"
   },
   {
     title: "baddiE",
