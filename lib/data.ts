@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Tracy Fung's portfolio",
     description:
-      "A portfolio for an emerging artist based in Mississauga. A very simple and minimalistic design and functionality as requested by the client.",
+      "A portfolio for an emerging artist based in Mississauga. A very simple and minimalistic design as requested by the client.",
     tags: ["HTML", "CSS", "Javascript"],
     imageUrl: tracyport,
     projectUrl: "https://tracy-fung.com/"
