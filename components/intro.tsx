@@ -92,7 +92,7 @@ export default function Intro() {
         >
           <BsGithub />
         </a>
-        <a
+        {/* <a
           className="bg-white  dark:bg-white/10 dark:text-white/60 p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://discordapp.com/users/prodoit"
           target="_blank"
@@ -112,7 +112,7 @@ export default function Intro() {
           target="_blank"
         >
           <BsTwitterX />
-        </a>
+        </a> */}
         </motion.div>
     </section>
 

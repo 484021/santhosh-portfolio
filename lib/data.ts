@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Web Developer/ Consultant",
     location: "Mississauga, ON",
     description:
-      "I work as a consultant for businesses and help with increasing online presence with digital marketing and web development services. I analyzed complex problems, provide expert advice, and offered practical solutions to clients.",
+      "I work as a consultant for businesses and help with increasing online presence with digital marketing and web development services. I analyze complex problems, provide expert advice, and offer practical solutions to clients.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - present",
   },
@@ -61,30 +61,29 @@ export const experiencesData = [
 
 export const projectsData = [
   
-  {
-    title: "Love the beads",
-    description:
-      "This is an e-commerce app I built where users can buy hand-made bead accesories from one of my clients. The cart data is passed to the server and verified.",
-    tags: ["HTML", "CSS", "Javascript","Node.js", "Express","Stripe"],
-    imageUrl: ltbImg,
-    projectUrl: "https://love-the-beads.onrender.com/"
-  },
-  {
-    title: "Tracy Fung's portfolio",
-    description:
-      "A portfolio for an emerging artist based in Mississauga. A very simple and minimalistic design as requested by the client.",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: tracyport,
-    projectUrl: "https://tracy-fung.com/"
-  },
-  {
-    title: "baddiE",
-    description:
-      "A social media platform for badminton players to connect and play badminton. Create your own badminton sessions or join others near you. *Under Construction*",
-    tags: ["React.js","Node.js","Express","MongoDB","Firebase","*TBD*"],
-    imageUrl: conpic,
-    projectUrl: "https://github.com/484021/baddiE"
-  },
+  // {
+  //   title: "Love the beads",
+  //   description:
+  //     "This is an e-commerce app I built where users can buy hand-made bead accesories from one of my clients. The cart data is passed to the server and verified.",
+  //   tags: ["HTML", "CSS", "Javascript","Node.js", "Express","Stripe"],
+  //   imageUrl: ltbImg,
+  //   projectUrl: "https://love-the-beads.onrender.com/"
+  // },
+  // {
+  //   title: "Tracy Fung's portfolio",
+  //   description:
+  //     "A portfolio for an emerging artist based in Mississauga. A very simple and minimalistic design as requested by the client.",
+  //   tags: ["HTML", "CSS", "Javascript"],
+  //   imageUrl: tracyport,
+  //   projectUrl: "https://tracy-fung.com/"
+  // },
+   {
+     title: "shopMate",
+     description: "Organize all your weekly shopping needs so you never forget to buy something when you go get groceries. *Under Construction*",
+     tags: ["*TBD*"],
+     imageUrl: conpic,
+     projectUrl: "#"
+   },
 ] as const;
 
 export const skillsData = [
