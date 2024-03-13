@@ -61,14 +61,14 @@ export const experiencesData = [
 
 export const projectsData = [
   
-  // {
-  //   title: "Love the beads",
-  //   description:
-  //     "This is an e-commerce app I built where users can buy hand-made bead accesories from one of my clients. The cart data is passed to the server and verified.",
-  //   tags: ["HTML", "CSS", "Javascript","Node.js", "Express","Stripe"],
-  //   imageUrl: ltbImg,
-  //   projectUrl: "https://love-the-beads.onrender.com/"
-  // },
+  {
+    title: "Love the beads",
+    description:
+      "This is an e-commerce app I built where users can buy hand-made bead accesories from one of my clients. The cart data is passed to the server and verified.",
+    tags: ["HTML", "CSS", "Javascript","Node.js", "Express","Stripe"],
+    imageUrl: ltbImg,
+    projectUrl: "https://love-the-beads.onrender.com/"
+  },
   // {
   //   title: "Tracy Fung's portfolio",
   //   description:
