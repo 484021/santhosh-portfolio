@@ -67,7 +67,7 @@ export const projectsData = [
     tags: ["React.js", "CSS"],
     imageUrl: wordanalytics,
     projectUrl:
-      "https://word-analytics-react-vite.vercel.app/.pages.dev/",
+      "https://word-analytics-react-vite.vercel.app/",
   },
   {
     title: "sukuran Web Solutions",
