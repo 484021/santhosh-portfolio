@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import ltbImg from "@/public/ltb.png"
-import conpic from "@/public/conpic.png"
-import tracyport from "@/public/Tracy-portfolio.png"
-
+import ltbImg from "@/public/ltb.png";
+import conpic from "@/public/conpic.png";
+import sukuran from "@/public/sukuran.png";
+import wordanalytics from "@/public/wordanalytics.png";
 export const links = [
   {
     name: "Home",
@@ -60,30 +60,31 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  
   {
-    title: "Love the beads",
+    title: "Word Analytics",
     description:
-      "This is an e-commerce app I built where users can buy hand-made bead accesories from one of my clients. The cart data is passed to the server and verified.",
-    tags: ["HTML", "CSS", "Javascript","Node.js", "Express","Stripe"],
-    imageUrl: ltbImg,
-    projectUrl: "https://love-the-beads.onrender.com/"
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React.js", "CSS"],
+    imageUrl: wordanalytics,
+    projectUrl:
+      "https://https://word-analytics-react-vite.vercel.app/.pages.dev/",
   },
-  // {
-  //   title: "Tracy Fung's portfolio",
-  //   description:
-  //     "A portfolio for an emerging artist based in Mississauga. A very simple and minimalistic design as requested by the client.",
-  //   tags: ["HTML", "CSS", "Javascript"],
-  //   imageUrl: tracyport,
-  //   projectUrl: "https://tracy-fung.com/"
-  // },
-   {
-     title: "shopMate",
-     description: "Organize all your weekly shopping needs so you never forget to buy something when you go get groceries. *Under Construction*",
-     tags: ["*TBD*"],
-     imageUrl: conpic,
-     projectUrl: "#"
-   },
+  {
+    title: "sukuran Web Solutions",
+    description:
+      "This is my agency's website I'm currently updating. We serve Mississauga with Web Design services with a Personal Touch.",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: sukuran,
+    projectUrl: "https://sukuran.pages.dev/",
+  },
+  {
+    title: "shopMate",
+    description:
+      "Organize all your weekly shopping needs so you never forget to buy something when you go get groceries. *Under Construction*",
+    tags: ["*TBD*"],
+    imageUrl: conpic,
+    projectUrl: "#",
+  },
 ] as const;
 
 export const skillsData = [
@@ -99,5 +100,5 @@ export const skillsData = [
   "Tailwind",
   "Express",
   "Framer Motion",
-  "Stripe"
+  "Stripe",
 ] as const;
