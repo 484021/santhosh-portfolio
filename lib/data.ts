@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import ltbImg from "@/public/ltb.png";
 import conpic from "@/public/conpic.png";
 import sukuran from "@/public/sukuran.png";
 import wordanalytics from "@/public/wordanalytics.png";
+import shopMate from "@/public/shopMate.png";
 export const links = [
   {
     name: "Home",
@@ -61,13 +61,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "shopMate",
+    description:
+      "Organize all your weekly shopping needs so you never forget to buy something when you go get groceries.",
+    tags: ["React.js", "Zustand"],
+    imageUrl: shopMate,
+    projectUrl: "https://shop-mate-three.vercel.app/",
+  },
+  {
     title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React.js", "CSS"],
     imageUrl: wordanalytics,
-    projectUrl:
-      "https://word-analytics-react-vite.vercel.app/",
+    projectUrl: "https://word-analytics-react-vite.vercel.app/",
   },
   {
     title: "sukuran Web Solutions",
@@ -78,9 +85,9 @@ export const projectsData = [
     projectUrl: "https://sukuran.pages.dev/",
   },
   {
-    title: "shopMate",
+    title: "PetSoft",
     description:
-      "Organize all your weekly shopping needs so you never forget to buy something when you go get groceries. *Under Construction*",
+      "PetSoft is a SaaS to manage all your pet day care clients and dogs in one place with. *Under Construction*",
     tags: ["*TBD*"],
     imageUrl: conpic,
     projectUrl: "#",
