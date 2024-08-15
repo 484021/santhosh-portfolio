@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import conpic from "@/public/conpic.png";
+import petsoft from "@/public/petsoft.png";
 import sukuran from "@/public/sukuran.png";
 import wordanalytics from "@/public/wordanalytics.png";
 import shopMate from "@/public/shopMate.png";
@@ -34,32 +34,57 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Operations Manager",
-    location: "Toronto, ON",
+    title: "Full-Stack Developer",
+    location: "Los Angeles, CA (Remote)",
     description:
-      "I managed a team of 10+ staff while developing and executing operational strategies aligned with organizational goals. I also identified inefficiencies and implemented enhancements to optimize productivity and reduce costs.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
+      "Currently a Full-Stack Developer at 100Devs, where I work with React, Next.js, TypeScript, Tailwind, Express, and Node.js to create effective web applications. I’m eager to find full-time opportunities where I can leverage my skills and continue to grow while contributing to a collaborative and innovative development team.",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
   },
   {
-    title: "Web Developer/ Consultant",
+    title: "Web Developer - Consultant",
     location: "Mississauga, ON",
     description:
-      "I work as a consultant for businesses and help with increasing online presence with digital marketing and web development services. I analyze complex problems, provide expert advice, and offer practical solutions to clients.",
+      "As a consultant, I drive business growth by boosting online presence with strategic digital marketing and cutting-edge web development. I quickly identify challenges and deliver actionable, results-focused solutions.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Los Angeles, CA (Remote)",
+    title: "Operations Manager",
+    location: "Toronto, ON",
     description:
-      "I'm now a full-stack developer working at an agency remotely. My stack includes React, Next.js, TypeScript, Tailwind, Express and Node.js. I'm open to full-time opportunities and new clients.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+      "As Operations Manager in Toronto, I led a team of 10+ staff, applying data-driven strategies to streamline workflows and align with business objectives. I identified system inefficiencies and leveraged technology to implement solutions that enhanced productivity and cut costs, showcasing my ability to optimize processes through innovative thinking.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
   },
+  
+  
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Petly",
+    description:
+      "Petly is a SaaS to manage all your pet day care clients and dogs in one place. *Under Construction*",
+    tags: [
+      "Next-Auth",
+      "Stripe",
+      "Framer Motion",
+      "Shadcn-UI",
+      "Prisma",
+      "Postgres",
+    ],
+    imageUrl: petsoft,
+    projectUrl: "https://petly-pearl.vercel.app/",
+  },
+  {
+    title: "sukuran Web Solutions",
+    description:
+      "This is my Web Development Agency's website. We serve Mississauga with Web Design services with a Personal Touch.",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: sukuran,
+    projectUrl: "https://sukuran.com/",
+  },
   {
     title: "shopMate",
     description:
@@ -76,22 +101,7 @@ export const projectsData = [
     imageUrl: wordanalytics,
     projectUrl: "https://word-analytics-react-vite.vercel.app/",
   },
-  {
-    title: "sukuran Web Solutions",
-    description:
-      "This is my agency's website I'm currently updating. We serve Mississauga with Web Design services with a Personal Touch.",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: sukuran,
-    projectUrl: "https://sukuran.pages.dev/",
-  },
-  {
-    title: "PetSoft",
-    description:
-      "PetSoft is a SaaS to manage all your pet day care clients and dogs in one place with. *Under Construction*",
-    tags: ["*TBD*"],
-    imageUrl: conpic,
-    projectUrl: "#",
-  },
+
 ] as const;
 
 export const skillsData = [
