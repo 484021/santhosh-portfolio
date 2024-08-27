@@ -63,7 +63,7 @@ export const projectsData = [
   {
     title: "devX",
     description:
-      "devX is a social media platform for developers and a job board.",
+      "devX is a social media platform for developers where they can ask questions and share answers. Developers have access to a job board as well.",
     tags: ["TBD"],
     imageUrl: conpic,
     projectUrl: "#",
