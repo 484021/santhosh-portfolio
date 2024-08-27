@@ -70,7 +70,7 @@ export const projectsData = [
   {
     title: "Petly",
     description:
-      "Petly is a SaaS to manage all your pet day care clients and dogs in one place. Fullstack CRUD operations with Auth and Payment.",
+      "Petly is a SaaS to manage all your pet day care clients and dogs in one place. Full-Stack CRUD operations with Auth and Payment.",
     tags: [
       "Next.js",
       "Next-Auth",
