@@ -19,13 +19,13 @@ export default function About() {
       <p className="mb-3">
         After a successful career managing and consulting for{" "}
         <span className="font-medium">restaurants</span>, I decided to follow my
-        passion for programming by enrolling in a coding bootcamp. There, I
-        mastered
-        <span className="font-medium"> full-stack web development</span>with a
-        focus on React, Next.js, Node.js, and TypeScript.
+        passion for programming by taking Harvard's Web Programming course. There, I
+        learned
+        <span className="font-medium"> full-stack web development. </span>Now I
+        focus on React, Next.js, TypeScript and Postgres always teaching myself and learning.
         <span className="italic"> I thrive on the problem-solving</span> aspect
         of programming and find great satisfaction in discovering effective
-        solutions. 
+        solutions and learning new things. 
         
         {/* <span className="underline">love</span> the feeling of finally
         figuring out a solution to a problem. My core stack is{" "}

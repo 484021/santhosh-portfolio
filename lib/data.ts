@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import petsoft from "@/public/petsoft.png";
+import petly from "@/public/petly.png";
 import sukuran from "@/public/sukuran.png";
-import wordanalytics from "@/public/wordanalytics.png";
-import shopMate from "@/public/shopMate.png";
+import conpic from "@/public/conpic.png";
 export const links = [
   {
     name: "Home",
@@ -57,25 +56,32 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
-  
-  
 ] as const;
 
 export const projectsData = [
   {
+    title: "baddiÈ",
+    description:
+      "baddiÈ is a badminton social media platform for players to ask each other questions and share their expertise.",
+    tags: ["TBD"],
+    imageUrl: conpic,
+    projectUrl: "#",
+  },
+  {
     title: "Petly",
     description:
-      "Petly is a SaaS to manage all your pet day care clients and dogs in one place. *Under Construction*",
+      "Petly is a SaaS to manage all your pet day care clients and dogs in one place. Fullstack CRUD operations with Auth and Payment.",
     tags: [
+      "Next.js",
       "Next-Auth",
-      "Stripe",
-      "Framer Motion",
       "Shadcn-UI",
+      "Zod",
       "Prisma",
       "Postgres",
+      "Stripe",
     ],
-    imageUrl: petsoft,
-    projectUrl: "https://petly-pearl.vercel.app/",
+    imageUrl: petly,
+    projectUrl: "https://petly-sooty.vercel.app/",
   },
   {
     title: "sukuran Web Solutions",
@@ -85,37 +91,39 @@ export const projectsData = [
     imageUrl: sukuran,
     projectUrl: "https://sukuran.com/",
   },
-  {
-    title: "shopMate",
-    description:
-      "Organize all your weekly shopping needs so you never forget to buy something when you go get groceries.",
-    tags: ["React.js", "Zustand"],
-    imageUrl: shopMate,
-    projectUrl: "https://shop-mate-three.vercel.app/",
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React.js", "CSS"],
-    imageUrl: wordanalytics,
-    projectUrl: "https://word-analytics-react-vite.vercel.app/",
-  },
-
+  // {
+  //   title: "shopMate",
+  //   description:
+  //     "Organize all your weekly shopping needs so you never forget to buy something when you go get groceries.",
+  //   tags: ["React.js", "Zustand"],
+  //   imageUrl: shopMate,
+  //   projectUrl: "https://shop-mate-three.vercel.app/",
+  // },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React.js", "CSS"],
+  //   imageUrl: wordanalytics,
+  //   projectUrl: "https://word-analytics-react-vite.vercel.app/",
+  // },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "tailwind",
+  "Framer Motion",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
+  "Express",
+  "Prisma",
+  "Postgres",
   "MongoDB",
   "Git",
-  "Tailwind",
-  "Express",
-  "Framer Motion",
+  "Github",
   "Stripe",
 ] as const;
