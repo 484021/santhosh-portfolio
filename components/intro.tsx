@@ -73,18 +73,18 @@ export default function Intro() {
             >Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1'/></Link>
             <a
           className="bg-white p-4 dark:bg-white/10 dark:text-white/60 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack"
-          href="https://www.linkedin.com/in/santhosh-bhoopal/"
+          href="https://www.linkedin.com/in/sanbho/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
-        <a
+        {/* <a
           className="bg-white p-4 dark:bg-white/10 dark:text-white/60 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://www.instagram.com/prodoit"
           target="_blank"
         >
           <BsInstagram />
-        </a>
+        </a> */}
         <a
           className="bg-white p-4 dark:bg-white/10 dark:text-white/60 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:text-gray-950 active:scale-105 transition borderBlack"
           href="https://github.com/484021/"

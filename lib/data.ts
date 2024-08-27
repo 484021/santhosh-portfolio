@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import petly from "@/public/petly.png";
 import sukuran from "@/public/sukuran.png";
 import conpic from "@/public/conpic.png";
+import lili from "@/public/lili.png";
 export const links = [
   {
     name: "Home",
@@ -60,9 +61,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "baddiÈ",
+    title: "devX",
     description:
-      "baddiÈ is a badminton social media platform for players to ask each other questions and share their expertise.",
+      "devX is a social media platform for developers and a job board.",
     tags: ["TBD"],
     imageUrl: conpic,
     projectUrl: "#",
@@ -84,13 +85,21 @@ export const projectsData = [
     projectUrl: "https://petly-sooty.vercel.app/",
   },
   {
-    title: "sukuran Web Solutions",
+    title: "Lili Sabor Latino",
     description:
-      "This is my Web Development Agency's website. We serve Mississauga with Web Design services with a Personal Touch.",
+      "Lili Sabor Latino is a vibrant project for a client offering authentic Latin cuisine from a food truck, where I designed a visually engaging website to enhance their online presence and attract more customers.",
     tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: sukuran,
-    projectUrl: "https://sukuran.com/",
+    imageUrl: lili,
+    projectUrl: "https://lilisaborlatino.com/",
   },
+  // {
+  //   title: "sukuran Web Solutions",
+  //   description:
+  //     "This is my Web Development Agency's website. We serve Mississauga with Web Design services with a Personal Touch.",
+  //   tags: ["HTML", "CSS", "Javascript"],
+  //   imageUrl: sukuran,
+  //   projectUrl: "https://sukuran.com/",
+  // },
   // {
   //   title: "shopMate",
   //   description:
