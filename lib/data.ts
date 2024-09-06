@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import petly from "@/public/petly.png";
-import sukuran from "@/public/sukuran.png";
 import conpic from "@/public/conpic.png";
 import lili from "@/public/lili.png";
+import wordanalytics from "@/public/wordanalytics.png";
 export const links = [
   {
     name: "Home",
@@ -61,10 +61,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "devX",
+    title: "Nestio - Under Construction",
     description:
-      "devX is a social media platform for developers where they can ask questions and share answers. Developers have access to a job board as well.",
-    tags: ["TBD"],
+      "Nestio is your go-to app for flexible, short-term rentals—book daily, weekly, or monthly stays effortlessly, just like Airbnb but with more options tailored to your needs.",
+    tags: ["Next.js", "React.js", "MongoDB", "TBD"],
     imageUrl: conpic,
     projectUrl: "#",
   },
@@ -74,9 +74,9 @@ export const projectsData = [
       "Petly is a SaaS to manage all your pet day care clients and dogs in one place. Full-Stack CRUD operations with Auth and Payment.",
     tags: [
       "Next.js",
+      "React.js",
+      "Typescript",
       "Next-Auth",
-      "Shadcn-UI",
-      "Zod",
       "Prisma",
       "Postgres",
       "Stripe",
@@ -91,6 +91,14 @@ export const projectsData = [
     tags: ["HTML", "CSS", "Javascript"],
     imageUrl: lili,
     projectUrl: "https://lilisaborlatino.com/",
+  },
+  {
+    title: "Word Analytics",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React.js", "CSS"],
+    imageUrl: wordanalytics,
+    projectUrl: "https://word-analytics-react-vite.vercel.app/",
   },
   // {
   //   title: "sukuran Web Solutions",
@@ -107,14 +115,6 @@ export const projectsData = [
   //   tags: ["React.js", "Zustand"],
   //   imageUrl: shopMate,
   //   projectUrl: "https://shop-mate-three.vercel.app/",
-  // },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React.js", "CSS"],
-  //   imageUrl: wordanalytics,
-  //   projectUrl: "https://word-analytics-react-vite.vercel.app/",
   // },
 ] as const;
 
