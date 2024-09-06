@@ -63,7 +63,7 @@ export const projectsData = [
   {
     title: "Nestio - Under Construction",
     description:
-      "Nestio is your go-to app for flexible, short-term rentals—book daily, weekly, or monthly stays effortlessly, just like Airbnb but with more options tailored to your needs.",
+      "Nestio is your go-to app for flexible, short-term rentals—book daily, weekly, or monthly, just like Airbnb but with more options tailored to your needs.",
     tags: ["Next.js", "React.js", "MongoDB", "TBD"],
     imageUrl: conpic,
     projectUrl: "#",
